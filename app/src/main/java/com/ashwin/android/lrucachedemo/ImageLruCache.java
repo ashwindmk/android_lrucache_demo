@@ -7,6 +7,4 @@ class ImageLruCache extends LruCache<String, Bitmap> {
     ImageLruCache(int maxSize) {
         super(maxSize);
     }
-
-
 }
